@@ -1,4 +1,6 @@
 import React from "react";
+
+// custom css for this particular component only
 import style from "./character.module.css";
 import Comic from "./Comic";
 
@@ -15,7 +17,7 @@ function Character({ name, description, thumbnail, url, comicsList }) {
 		}
 	};
 
-	//"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available"
+	//image url when image is not available: "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available"
 
 	const comicsFiltered = comicsList.filter(checkImageAvailabilty);
 	const comics = comicsFiltered.slice(0, 3);

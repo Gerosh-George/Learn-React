@@ -11,6 +11,8 @@ function App() {
 		);
 	};
 
+	// it is triggered when app is loaded for the first time
+	// [] paramter makes it trigger only one time
 	useEffect(() => {
 		showCredits();
 	}, []);
@@ -55,6 +57,8 @@ function App() {
 		}
 	};
 
+	// if we add any state variable in [] then this function will get triggered
+	// whenever that state variable will be updated.. in this case its query
 	useEffect(() => {
 		console.log("effect loaded");
 
