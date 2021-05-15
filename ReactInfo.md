@@ -2,7 +2,9 @@
 
 <hr>
 
-### "Note this is the basic documentation that you get when creating the project folder using `npx create-react-app app_name`"
+### "Note this is the basic documentation that you get when creating the project folder using
+
+`npx create-react-app app_name`"
 
 <hr>
 <br>
