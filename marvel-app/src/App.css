@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+
+.App {
+	background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+	color: antiquewhite;
+	width: 100%;
+	min-height: 100vh;
+	font-family: 'Source Serif Pro', serif;
+
+}
+
+.search-bar {
+	min-height: 10vh;
+	padding: 10px 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 25px;
+}
+
+.search-bar h2 {
+	margin-bottom: 5px;
+}
+
+.search-bar form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+}
+
+.search-bar form input {
+	width: 50%;
+	height: 30px;
+	border: none;
+}
+
+.search-bar form button {
+	width: 10%;
+	margin-left: 10px;
+	height: 30px;
+	font-size: 1.25rem;
+	color: #330867;
+	background-color: #2ba6cc;
+	border: none;
+	cursor: pointer;
+}
+
+.result {
+	min-height: 90vh;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+

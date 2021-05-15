@@ -1,0 +1,107 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.app{
+  overflow: hidden;
+}
+
+nav {
+	height: 15vh;
+	display: flex;
+	align-items: center;
+	width: 100vw;
+	background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+	margin-bottom: 25px;
+}
+
+nav a {
+	flex: 3;
+	padding: 2%;
+}
+
+a {
+	text-decoration: none;
+	color: initial;
+}
+
+nav ul {
+	flex: 1;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	list-style: none;
+}
+
+nav ul li:hover {
+	color: aliceblue;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.title {
+	text-align: center;
+}
+
+.cocktail-list {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.list {
+	height: 50vh;
+	margin: 5%;
+  overflow-y: scroll;
+  width: 30vw;
+}
+
+.list li{
+  margin-left: 30px;
+}
+
+.list a:hover {
+	color: #f68084;
+
+}
+
+.recipe-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.recipe {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	width: 80%;
+}
+
+.recipe h1 {
+	padding: 2%;
+}
+
+.recipe div {
+	margin: 5px;
+}
+
+.recipe .instruction {
+	width: 65%;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.recipe .highlight {
+	font-weight: bolder;
+	font-size: 1.2rem;
+}
+
+.recipe img {
+	box-shadow: 5px 5px rgba(77, 72, 72, 0.699);
+}
