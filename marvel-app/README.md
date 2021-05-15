@@ -17,6 +17,8 @@ Concept used:
 - Creating child components [APP: Character and Comic]
 - Using module.css file that applies css style to one particular component [character.module.css](https://github.com/Gerosh-George/Learn-React/blob/master/marvel-app/src/comic.module.css)
 
+[Reference Video](https://www.youtube.com/watch?v=U9T6YkEDkMo&list=PLDyQo7g0_nsVHmyZZpVJyFn5ojlboVEhE&index=2&t=832s)
+
 ## OUTPUT:
 
 <img src="https://user-images.githubusercontent.com/62696039/118353617-c62bc580-b584-11eb-95b6-272718d2a0e0.gif" width="500px">

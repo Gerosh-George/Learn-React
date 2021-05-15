@@ -13,6 +13,9 @@ function App() {
 				<Nav />
 
 				<Switch>
+					{/* exact means that path should exactly same as mentioned
+					 and not a substring of larger path*/}
+
 					<Route path="/" exact component={homepage} />
 					<Route path="/about" component={About} />
 					<Route path="/cocktails" exact component={Cocktails} />
