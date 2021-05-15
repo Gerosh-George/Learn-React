@@ -1,3 +1,3 @@
-# Learn React Repo
+# Learn React
 
-fwlfn
+Personalised Repository containg the basic React concept in specific folders.
