@@ -13,7 +13,7 @@ The advantage of React over vanilla javascript is the fast rendering of the DOM.
 Concept covered in this repo:
 
 - Functional Components <br>
-  [There are two types : Class and fucntional but in this repo functional is used as it is usually preferred]
+  [There are two types : Class and functional but in this repo functional is used as it is usually preferred]
 - Props and states
 - useState
 - Destructing concept [ES6 feature]
