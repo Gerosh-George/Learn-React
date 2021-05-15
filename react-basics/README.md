@@ -27,4 +27,4 @@ Remember the state variables used in components are immutable in nature hence yo
 
 ## OUTPUT
 
-![2021-05-15 12-39-24](https://user-images.githubusercontent.com/62696039/118351752-5a912a80-b57b-11eb-8f95-8d43b8138148.gif)
+<img src="https://user-images.githubusercontent.com/62696039/118351752-5a912a80-b57b-11eb-8f95-8d43b8138148.gif" width="300">
